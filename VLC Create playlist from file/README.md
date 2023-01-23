@@ -8,20 +8,11 @@ so that you can use Previous and Next to navigate through the folder.
 
 ### Windows
 
-Copy vlc.ps1 and vlc.bat in your home directory, then you can open your video/audio file with vlc.bat like this :
+Copy vlc.ps1 to your VLC folder next to vlc.exe. Run vlc.reg to add "VLC Playlist" option to context menu in windows explorer:
 
-``` vlc.bat video.mp4```.
+![image](https://user-images.githubusercontent.com/117949307/213956991-249a26e6-310f-4506-aff4-c33c0fdd667d.png)
 
-You may want to run ```Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy UNRESTRICTED``` once in a powershell terminal
-to allow exectution of powershell scripts.
-
-You can check if the variable ```$vlcPath``` is correct in vlc.ps1, and modify known extensions with the variable ```$Extensions```.
-
-### Linux
-
-Copy vlc.sh in your home directory and mark it executable, then copy the desktop file of VLC ```/usr/share/applications/vlc.desktop``` to ```~/.local/share/applications/vlc.desktop``` and change the field ```Exec``` to the path of vlc.sh (remove argument ```--started-from-file %U```). Known extensions are stocked in variable ```$extensions```.
-
-You may want to activate the loop option in VLC preferences if VLC is configured to play the next track automatically.
+You can check if the variable ```$vlcPath``` is correct in vlc.ps1, and modify known extensions with the variable ```$Extensions```. You can update vlc.ps1 path or add more file extentions to have context menu by changing vlc.reg.
 
 ## Notes
 
