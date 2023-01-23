@@ -1,0 +1,34 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\VLC Playlist\command]
+@="powershell.exe -ExecutionPolicy Bypass -File \"C:\\Program Files\\VideoLAN\\VLC\\vlc.ps1\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\VLC Playlist]
+"icon"="C:\\Program Files\\VideoLAN\\VLC\\lua\\http\\favicon.ico"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\VLC Playlist]
+"position"="Top"
+
+; -------------------------------------------------------------------------------
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\VLC Playlist\command]
+@="powershell.exe -ExecutionPolicy Bypass -File \"C:\\Program Files\\VideoLAN\\VLC\\vlc.ps1\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\VLC Playlist]
+"icon"="C:\\Program Files\\VideoLAN\\VLC\\lua\\http\\favicon.ico"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\VLC Playlist]
+"position"="Top"
+
+; -------------------------------------------------------------------------------
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\VLC Playlist\command]
+@="powershell.exe -ExecutionPolicy Bypass -File \"C:\\Program Files\\VideoLAN\\VLC\\vlc.ps1\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\VLC Playlist]
+"icon"="C:\\Program Files\\VideoLAN\\VLC\\lua\\http\\favicon.ico"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\VLC Playlist]
+"position"="Top"
+
+; -------------------------------------------------------------------------------
