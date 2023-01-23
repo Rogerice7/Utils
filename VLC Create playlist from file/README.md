@@ -1,6 +1,6 @@
 # VLC Create playlist from file
 
-These scripts make VLC behave like MPC-HC, ie when you open a file with VLC in a folder,
+These scripts make VLC behave like MPC-HC after playback feature, ie when you open a file with VLC in a folder,
 it will automatically add all the files in this folder to the playlist (starting with the opened file, then sorted alphabetically),
 so that you can use Previous and Next to navigate through the folder.
 
