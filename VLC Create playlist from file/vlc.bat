@@ -1,2 +1,2 @@
 @echo off
-powershell -File %USERPROFILE%\vlc.ps1 %1
+powershell -ExecutionPolicy Bypass -File %USERPROFILE%\vlc.ps1 %1
