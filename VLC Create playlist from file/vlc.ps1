@@ -3,8 +3,8 @@ Param([string]$filename)
 # kill other instances of vlc to keep playlist clean (one-instance mode)
 Stop-Process -Name vlc -ErrorAction SilentlyContinue
 
-$vlcPath = "C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
-$Extensions='(\.avi$|\.mp4$|\.mkv$|\.m4v$|\.mov$|\.mpg$|\.mpeg$|\.wmv$|\.ogg$|\.flac$|\.m4a$|\.mp3$|\.wav$)'
+$vlcPath = "C:\Program Files\VideoLAN\VLC\vlc.exe"
+$Extensions='(\.avi$|\.mp4$|\.mkv$)'
 
 if ([string]::IsNullOrEmpty($filename)) {& $vlcPath; exit} # launch empty vlc if no argument provided
 
